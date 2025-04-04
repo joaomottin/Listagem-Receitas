@@ -18,7 +18,10 @@
             <div class="receita">
                 <img src="<?= $receita['imagem']; ?>" alt="<?= $receita['nome']; ?>">
                 <h2><?= $receita['nome']; ?></h2>
+<<<<<<< HEAD
                 <p><strong>Tipo:</strong> <?= $receita['tipo']; ?></p>
+=======
+>>>>>>> 8a8dbde (Atualização códigos)
                 <a href="detalhes.php?id=<?= $receita['id']; ?>">Ver Mais</a>
             </div>
         <?php endforeach; ?>
