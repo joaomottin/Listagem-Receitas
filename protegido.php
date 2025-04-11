@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="text" name="nome" placeholder="Nome da Receita" required><br><br>
             <input type="text" name="tipo" placeholder="Tipo (Doce, Salgado...)" required><br><br>
             <input type="text" name="pais" placeholder="País de Origem" required><br><br>
-            <textarea name="descricao" placeholder="Descrição" required></textarea><br><br>
+            <textarea name="descricao" placeholder="Descrição(Ingredientes e Modo de Preparo)" required></textarea><br><br>
             <input type="text" name="imagem" placeholder="URL da Imagem" required><br><br>
             <button type="submit">Adicionar Receita</button>
         </form>
