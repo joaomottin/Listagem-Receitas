@@ -28,8 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $arquivo = 'dados.php';
     $conteudo = file_get_contents($arquivo);
-
-    $conteudo = preg_replace('/(\$receitas\s*=\s*\[)(.*)(\];)/sU', "\$receitas = [\n$2$novaLinha];", $conteudo);
+    $conteudo = preg_replace('/(\$receitas\s*=\s*\[)(.*)(\];)/sU', "\$receitas = [\n$2$novaLinha];", $conteudo); // nós confessamos que o gpt precisou dar uma ajuda nisso aqui kkkk
 
     file_put_contents($arquivo, $conteudo);
 

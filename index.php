@@ -13,16 +13,11 @@
         <input type="text" name="busca" placeholder="Pesquisar por nome ou tipo">
         <button type="submit">Buscar</button>
     </form>
-    <div style="text-align: center; padding: 20px;">    
-    <a href="login.php" style="
-        background-color: #8e44ad;
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 8px;
-        font-weight: bold;
-        text-decoration: none;
-    ">Área Administrativa</a>
-</div>
+
+    <div class="admin-button-container">
+    <a href="login.php" class="admin-button">Área Administrativa</a>
+    </div>
+    
     <div class="container">
         <?php foreach ($receitas as $receita): ?>
             <div class="receita">
