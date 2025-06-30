@@ -1,13 +1,75 @@
-INTEGRANTES: João Pedro Mezzadri Mottin - RGM: 36946346 & Iago Mayer Bach - RGM: 36899691
+# 🍝 Listagem de Receitas
 
-Instruções: Começar pelo index.php
-Área do administrado: 
-Login - admin
-Senha - 1234
+Sistema de listagem e cadastro de receitas feito em **PHP** utilizando o padrão **MVC** e **Programação Orientada a Objetos (POO)**.
 
-Olá professor, tudo certinho? Nós dois decidimos que só eu ia realizar os commits, pois o GitHub do Iago tava dando problema e ele não tava conseguindo fazer as alterações.
+---
 
-Eu (João Mottin) fiquei mais com a parte do inicio/esqueleto do projeto - index, dados, filtrar, detalhes.
-Parceiro (Iago Bach) ficou mais com o final do projeto - login, protegido, styles.
+## 🧠 Tecnologias e Padrões
 
-Apesar de nós termos varios bugs nessa jornada, foi bem massa de fazer uma pagina do zero xD
+- ✅ PHP 8+
+- ✅ Padrão MVC (Model-View-Controller)
+- ✅ POO (Programação Orientada a Objetos)
+- ✅ Banco de dados **MySQL** (via PDO)
+- ✅ Sessões e Cookies
+- ✅ Estilização com HTML + CSS puro
+
+---
+
+## 🧩 Funcionalidades
+
+- 👤 Página de login
+- 🍽️ Cadastro de receitas (nome, descrição, imagem)
+- 📋 Listagem de receitas
+- 📝 Edição e exclusão de receitas
+- 📁 Upload de imagens
+- 🔐 Proteção com sessões
+- 🛠️ Validações simples no backend
+
+---
+
+## 🗂️ Estrutura MVC
+
+```
+Listagem-Receitas/
+├── app/
+│   ├── Controllers/
+│   ├── Models/
+│   └── Views/
+├── config/
+│   └── db.php
+├── public/
+│   ├── index.php
+│   └── assets/
+└── routes/
+    └── web.php
+```
+
+---
+
+## 🛠️ Como rodar o projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/joaomottin/Listagem-Receitas.git
+```
+
+2. Configure o banco de dados em `/config/db.php`.
+
+3. Importe o arquivo `.sql` no seu MySQL.
+
+4. Inicie o servidor local (ex: XAMPP ou Laragon) e acesse:
+```
+http://localhost/Listagem-Receitas/public
+```
+
+---
+
+## 🙋‍♂️ Autor
+
+Feito com 💪 por [João Mottin](https://github.com/joaomottin)
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.
